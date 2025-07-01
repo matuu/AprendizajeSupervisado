@@ -26,7 +26,7 @@ Esta competencia ha sido creada a partir de un datasets sobre una recopilación 
 ## Pasos a seguir
 
 1. Crear una cuenta en kaggle.com.
-1. Sumarse a la competencia [acá](https://www.kaggle.com/t/ab02324355724927a10210025856f985).
+1. Sumarse a la competencia. El link está disponible en la UV de la materia.
     * Hacer click en "Join Competition".
     * Aceptar las reglas.
 1. Crear un equipo (Team): El trabajo se evaluará en los grupos asignados.
@@ -52,4 +52,4 @@ Ese archivo debe ser subido a kaggle como lo explicamos arriba: haciendo click e
 
 * En el baseline solo se utiliza cross-validation (mediante *GridSearchCV*) para evaluar el modelo, son libres de generar un subconjunto de validación aparte del conjunto de entrenamiento si así lo desean.
 * Los *features* escogidos no tienen ningún análisis y son casi por defecto. Parte del proceso de encontrar un buen modelo es ver como trabajar dichos features.
-* La métrica a optimizar será el accuracy score.
+* La métrica a optimizar será el recall score.
